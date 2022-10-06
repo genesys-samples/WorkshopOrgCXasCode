@@ -1,3 +1,3 @@
 # GCOrgBaseConfig
-Base configuration of multiple users with basic permissions, queues, utilization to use for new instance spin up or DR cold org with terraform
+Base configuration use case of multiple users with basic permissions to use for new instance . not intended for production but to be used for terraform testing with CX as Code
 
