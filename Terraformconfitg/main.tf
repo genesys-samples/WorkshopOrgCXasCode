@@ -13,14 +13,44 @@ provider "genesyscloud" {
   oauthclient_secret = var.oauthclient_secret
   aws_region = var.aws_region
 }
+data "genesyscloud_auth_role" "employee" {
+  name = "employee"
+}
 
+data "genesyscloud_auth_role" "Developer" {
+  name = "Developer"
+}
+
+data "genesyscloud_auth_role" "GenesysCloudVoiceAdmin" {
+  name = "Genesys Cloud Voice Admin"
+}
+data "genesyscloud_auth_role" "MasterAdmin" {
+  name = "Master Admin"
+}
+data "genesyscloud_auth_role" "Terraform_user" {
+  name = "Terraform user"
+}
+
+
+
+#Assigning the agents and user
+resource "genesyscloud_user_roles" "sheldoncooper_roles" {
+  user_id = genesyscloud_user.sheldoncooper_agent.id
+  roles {
+    role_id = data.genesyscloud_auth_role.employee.id
+  }
+
+  roles {
+    role_id = data.genesyscloud_auth_role.user.id
+  }
+}
 resource "genesyscloud_routing_skill" "test_skill" {
-  name = "Sams mad terraform skillz"
+  name = "CX as Code Skill "
 }
 resource "genesyscloud_user" "test_user" {
   email           = "workshopuser00@genesystest.com"
   name            = "Terraform user"
-  password        = "123Password!"
+  password        = var.password
   state           = "inactive"
   acd_auto_answer = true
   division_id     = data.genesyscloud_auth_division.terraform.id
