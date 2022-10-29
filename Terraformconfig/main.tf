@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 1.3.1"
+  required_version = "~> 1.1.8"
   required_providers {
     genesyscloud = {
       source  = "mypurecloud/genesyscloud"
@@ -33,3 +33,8 @@ data "genesyscloud_auth_role" "MasterAdmin" {
 data "genesyscloud_auth_role" "Terraform_user" {
   name = "Terraform_user"
 }
+
+data "genesyscloud_auth_role" "AgentAssist" {
+  name = "Agent Assist"
+}
+
