@@ -1,5 +1,5 @@
 resource "genesyscloud_user" "Workshop_user1" {
-	email    = "workshopuser01@genesystest.com"
+	email    = "workshop01@genesystest.com"
 	name     = "Workshop User 01"
 	password = var.password
 	state    = "active"
@@ -9,7 +9,7 @@ resource "genesyscloud_user" "Workshop_user1" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user2" {
-	email    = "workshopuser02@genesystest.com"
+	email    = "workshop02@genesystest.com"
 	name     = "Workshop User 02"
 	password = var.password
 	state    = "active"
@@ -19,7 +19,7 @@ resource "genesyscloud_user" "Workshop_user2" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user3" {
-	email    = "workshopuser03@genesystest.com"
+	email    = "workshop03@genesystest.com"
 	name     = "Workshop User 03"
 	password = var.password
 	state    = "active"
@@ -29,7 +29,7 @@ resource "genesyscloud_user" "Workshop_user3" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user4" {
-	email    = "workshopuser04@genesystest.com"
+	email    = "workshop04@genesystest.com"
 	name     = "Workshop User 04"
 	password = var.password
 	state    = "active"
@@ -39,7 +39,7 @@ resource "genesyscloud_user" "Workshop_user4" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user5" {
-	email    = "workshopuser05@genesystest.com"
+	email    = "workshop05@genesystest.com"
 	name     = "Workshop User 05"
 	password = var.password
 	state    = "active"
@@ -49,7 +49,7 @@ resource "genesyscloud_user" "Workshop_user5" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user6" {
-	email    = "workshopuser06@genesystest.com"
+	email    = "workshop06@genesystest.com"
 	name     = "Workshop User 06"
 	password = var.password
 	state    = "active"
@@ -59,7 +59,7 @@ resource "genesyscloud_user" "Workshop_user6" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user7" {
-	email    = "workshopuser07@genesystest.com"
+	email    = "workshop07@genesystest.com"
 	name     = "Workshop User 07"
 	password = var.password
 	state    = "active"
@@ -69,7 +69,7 @@ resource "genesyscloud_user" "Workshop_user7" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user8" {
-	email    = "workshopuser08@genesystest.com"
+	email    = "workshop08@genesystest.com"
 	name     = "Workshop User 08"
 	password = var.password
 	state    = "active"
@@ -79,7 +79,7 @@ resource "genesyscloud_user" "Workshop_user8" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user9" {
-	email    = "workshopuser09@genesystest.com"
+	email    = "workshop09@genesystest.com"
 	name     = "Workshop User 09"
 	password = var.password
 	state    = "active"
@@ -89,7 +89,7 @@ resource "genesyscloud_user" "Workshop_user9" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user10" {
-	email    = "workshopuser10@genesystest.com"
+	email    = "workshop10@genesystest.com"
 	name     = "Workshop User 10"
 	password = var.password
 	state    = "active"
@@ -99,7 +99,7 @@ resource "genesyscloud_user" "Workshop_user10" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user11" {
-	email    = "workshopuser11@genesystest.com"
+	email    = "workshop11@genesystest.com"
 	name     = "Workshop User 11"
 	password = var.password
 	state    = "active"
@@ -109,7 +109,7 @@ resource "genesyscloud_user" "Workshop_user11" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user12" {
-	email    = "workshopuser12@genesystest.com"
+	email    = "workshop12@genesystest.com"
 	name     = "Workshop User 12"
 	password = var.password
 	state    = "active"
@@ -119,7 +119,7 @@ resource "genesyscloud_user" "Workshop_user12" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user13" {
-	email    = "workshopuser13@genesystest.com"
+	email    = "workshop13@genesystest.com"
 	name     = "Workshop User 13"
 	password = var.password
 	state    = "active"
@@ -129,7 +129,7 @@ resource "genesyscloud_user" "Workshop_user13" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user14" {
-	email    = "workshopuser14@genesystest.com"
+	email    = "workshop14@genesystest.com"
 	name     = "Workshop User 14"
 	password = var.password
 	state    = "active"
@@ -139,7 +139,7 @@ resource "genesyscloud_user" "Workshop_user14" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user15" {
-	email    = "workshopuser15@genesystest.com"
+	email    = "workshop15@genesystest.com"
 	name     = "Workshop User 15"
 	password = var.password
 	state    = "active"
@@ -149,7 +149,7 @@ resource "genesyscloud_user" "Workshop_user15" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user16" {
-	email    = "workshopuser16@genesystest.com"
+	email    = "workshop16@genesystest.com"
 	name     = "Workshop User 16"
 	password = var.password
 	state    = "active"
@@ -159,7 +159,7 @@ resource "genesyscloud_user" "Workshop_user16" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user17" {
-	email    = "workshopuser17@genesystest.com"
+	email    = "workshop17@genesystest.com"
 	name     = "Workshop User 17"
 	password = var.password
 	state    = "active"
@@ -169,7 +169,7 @@ resource "genesyscloud_user" "Workshop_user17" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user18" {
-	email    = "workshopuser18@genesystest.com"
+	email    = "workshop18@genesystest.com"
 	name     = "Workshop User 18"
 	password = var.password
 	state    = "active"
@@ -179,7 +179,7 @@ resource "genesyscloud_user" "Workshop_user18" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user19" {
-	email    = "workshopuser19@genesystest.com"
+	email    = "workshop19@genesystest.com"
 	name     = "Workshop User 19"
 	password = var.password
 	state    = "active"
@@ -189,7 +189,7 @@ resource "genesyscloud_user" "Workshop_user19" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user20" {
-	email    = "workshopuser20@genesystest.com"
+	email    = "workshop20@genesystest.com"
 	name     = "Workshop User 20"
 	password = var.password
 	state    = "active"
@@ -199,7 +199,7 @@ resource "genesyscloud_user" "Workshop_user20" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user21" {
-	email    = "workshopuser21@genesystest.com"
+	email    = "workshop21@genesystest.com"
 	name     = "Workshop User 21"
 	password = var.password
 	state    = "active"
@@ -209,7 +209,7 @@ resource "genesyscloud_user" "Workshop_user21" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user22" {
-	email    = "workshopuser22@genesystest.com"
+	email    = "workshop22@genesystest.com"
 	name     = "Workshop User 22"
 	password = var.password
 	state    = "active"
@@ -219,7 +219,7 @@ resource "genesyscloud_user" "Workshop_user22" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user23" {
-	email    = "workshopuser23@genesystest.com"
+	email    = "workshop23@genesystest.com"
 	name     = "Workshop User 23"
 	password = var.password
 	state    = "active"
@@ -229,7 +229,7 @@ resource "genesyscloud_user" "Workshop_user23" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user24" {
-	email    = "workshopuser24@genesystest.com"
+	email    = "workshop24@genesystest.com"
 	name     = "Workshop User 24"
 	password = var.password
 	state    = "active"
@@ -239,7 +239,7 @@ resource "genesyscloud_user" "Workshop_user24" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user25" {
-	email    = "workshopuser25@genesystest.com"
+	email    = "workshop25@genesystest.com"
 	name     = "Workshop User 25"
 	password = var.password
 	state    = "active"
@@ -249,7 +249,7 @@ resource "genesyscloud_user" "Workshop_user25" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user26" {
-	email    = "workshopuser26@genesystest.com"
+	email    = "workshop26@genesystest.com"
 	name     = "Workshop User 26"
 	password = var.password
 	state    = "active"
@@ -259,7 +259,7 @@ resource "genesyscloud_user" "Workshop_user26" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user27" {
-	email    = "workshopuser27@genesystest.com"
+	email    = "workshop27@genesystest.com"
 	name     = "Workshop User 27"
 	password = var.password
 	state    = "active"
@@ -269,7 +269,7 @@ resource "genesyscloud_user" "Workshop_user27" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user28" {
-	email    = "workshopuser28@genesystest.com"
+	email    = "workshop28@genesystest.com"
 	name     = "Workshop User 28"
 	password = var.password
 	state    = "active"
@@ -279,7 +279,7 @@ resource "genesyscloud_user" "Workshop_user28" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user29" {
-	email    = "workshopuser29@genesystest.com"
+	email    = "workshop29@genesystest.com"
 	name     = "Workshop User 29"
 	password = var.password
 	state    = "active"
@@ -289,7 +289,7 @@ resource "genesyscloud_user" "Workshop_user29" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user30" {
-	email    = "workshopuser30@genesystest.com"
+	email    = "workshop30@genesystest.com"
 	name     = "Workshop User 30"
 	password = var.password
 	state    = "active"
@@ -299,7 +299,7 @@ resource "genesyscloud_user" "Workshop_user30" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user31" {
-	email    = "workshopuser31@genesystest.com"
+	email    = "workshop31@genesystest.com"
 	name     = "Workshop User 31"
 	password = var.password
 	state    = "active"
@@ -309,7 +309,7 @@ resource "genesyscloud_user" "Workshop_user31" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user32" {
-	email    = "workshopuser32@genesystest.com"
+	email    = "workshop32@genesystest.com"
 	name     = "Workshop User 32"
 	password = var.password
 	state    = "active"
@@ -319,7 +319,7 @@ resource "genesyscloud_user" "Workshop_user32" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user33" {
-	email    = "workshopuser33@genesystest.com"
+	email    = "workshop33@genesystest.com"
 	name     = "Workshop User 33"
 	password = var.password
 	state    = "active"
@@ -329,7 +329,7 @@ resource "genesyscloud_user" "Workshop_user33" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user34" {
-	email    = "workshopuser34@genesystest.com"
+	email    = "workshop34@genesystest.com"
 	name     = "Workshop User 34"
 	password = var.password
 	state    = "active"
@@ -339,7 +339,7 @@ resource "genesyscloud_user" "Workshop_user34" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user35" {
-	email    = "workshopuser35@genesystest.com"
+	email    = "workshop35@genesystest.com"
 	name     = "Workshop User 35"
 	password = var.password
 	state    = "active"
@@ -349,7 +349,7 @@ resource "genesyscloud_user" "Workshop_user35" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user36" {
-	email    = "workshopuser36@genesystest.com"
+	email    = "workshop36@genesystest.com"
 	name     = "Workshop User 36"
 	password = var.password
 	state    = "active"
@@ -359,7 +359,7 @@ resource "genesyscloud_user" "Workshop_user36" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user37" {
-	email    = "workshopuser37@genesystest.com"
+	email    = "workshop37@genesystest.com"
 	name     = "Workshop User 37"
 	password = var.password
 	state    = "active"
@@ -369,7 +369,7 @@ resource "genesyscloud_user" "Workshop_user37" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user38" {
-	email    = "workshopuser38@genesystest.com"
+	email    = "workshop38@genesystest.com"
 	name     = "Workshop User 38"
 	password = var.password
 	state    = "active"
@@ -379,7 +379,7 @@ resource "genesyscloud_user" "Workshop_user38" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user39" {
-	email    = "workshopuser39@genesystest.com"
+	email    = "workshop39@genesystest.com"
 	name     = "Workshop User 39"
 	password = var.password
 	state    = "active"
@@ -389,7 +389,7 @@ resource "genesyscloud_user" "Workshop_user39" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user40" {
-	email    = "workshopuser40@genesystest.com"
+	email    = "workshop40@genesystest.com"
 	name     = "Workshop User 40"
 	password = var.password
 	state    = "active"
@@ -399,7 +399,7 @@ resource "genesyscloud_user" "Workshop_user40" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user41" {
-	email    = "workshopuser41@genesystest.com"
+	email    = "workshop41@genesystest.com"
 	name     = "Workshop User 41"
 	password = var.password
 	state    = "active"
@@ -409,7 +409,7 @@ resource "genesyscloud_user" "Workshop_user41" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user42" {
-	email    = "workshopuser42@genesystest.com"
+	email    = "workshop42@genesystest.com"
 	name     = "Workshop User 42"
 	password = var.password
 	state    = "active"
@@ -419,7 +419,7 @@ resource "genesyscloud_user" "Workshop_user42" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user43" {
-	email    = "workshopuser43@genesystest.com"
+	email    = "workshop43@genesystest.com"
 	name     = "Workshop User 43"
 	password = var.password
 	state    = "active"
@@ -429,7 +429,7 @@ resource "genesyscloud_user" "Workshop_user43" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user44" {
-	email    = "workshopuser44@genesystest.com"
+	email    = "workshop44@genesystest.com"
 	name     = "Workshop User 44"
 	password = var.password
 	state    = "active"
@@ -439,7 +439,7 @@ resource "genesyscloud_user" "Workshop_user44" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user45" {
-	email    = "workshopuser45@genesystest.com"
+	email    = "workshop45@genesystest.com"
 	name     = "Workshop User 45"
 	password = var.password
 	state    = "active"
@@ -449,7 +449,7 @@ resource "genesyscloud_user" "Workshop_user45" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user46" {
-	email    = "workshopuser46@genesystest.com"
+	email    = "workshop46@genesystest.com"
 	name     = "Workshop User 46"
 	password = var.password
 	state    = "active"
@@ -459,7 +459,7 @@ resource "genesyscloud_user" "Workshop_user46" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user47" {
-	email    = "workshopuser47@genesystest.com"
+	email    = "workshop47@genesystest.com"
 	name     = "Workshop User 47"
 	password = var.password
 	state    = "active"
@@ -469,7 +469,7 @@ resource "genesyscloud_user" "Workshop_user47" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user48" {
-	email    = "workshopuser48@genesystest.com"
+	email    = "workshop48@genesystest.com"
 	name     = "Workshop User 48"
 	password = var.password
 	state    = "active"
@@ -479,7 +479,7 @@ resource "genesyscloud_user" "Workshop_user48" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user49" {
-	email    = "workshopuser49@genesystest.com"
+	email    = "workshop49@genesystest.com"
 	name     = "Workshop User 49"
 	password = var.password
 	state    = "active"
@@ -489,7 +489,7 @@ resource "genesyscloud_user" "Workshop_user49" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user50" {
-	email    = "workshopuser50@genesystest.com"
+	email    = "workshop50@genesystest.com"
 	name     = "Workshop User 50"
 	password = var.password
 	state    = "active"
@@ -499,7 +499,7 @@ resource "genesyscloud_user" "Workshop_user50" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user51" {
-	email    = "workshopuser51@genesystest.com"
+	email    = "workshop51@genesystest.com"
 	name     = "Workshop User 51"
 	password = var.password
 	state    = "active"
@@ -509,7 +509,7 @@ resource "genesyscloud_user" "Workshop_user51" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user52" {
-	email    = "workshopuser52@genesystest.com"
+	email    = "workshop52@genesystest.com"
 	name     = "Workshop User 52"
 	password = var.password
 	state    = "active"
@@ -519,7 +519,7 @@ resource "genesyscloud_user" "Workshop_user52" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user53" {
-	email    = "workshopuser53@genesystest.com"
+	email    = "workshop53@genesystest.com"
 	name     = "Workshop User 53"
 	password = var.password
 	state    = "active"
@@ -529,7 +529,7 @@ resource "genesyscloud_user" "Workshop_user53" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user54" {
-	email    = "workshopuser54@genesystest.com"
+	email    = "workshop54@genesystest.com"
 	name     = "Workshop User 54"
 	password = var.password
 	state    = "active"
@@ -539,7 +539,7 @@ resource "genesyscloud_user" "Workshop_user54" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user55" {
-	email    = "workshopuser55@genesystest.com"
+	email    = "workshop55@genesystest.com"
 	name     = "Workshop User 55"
 	password = var.password
 	state    = "active"
@@ -549,7 +549,7 @@ resource "genesyscloud_user" "Workshop_user55" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user56" {
-	email    = "workshopuser56@genesystest.com"
+	email    = "workshop56@genesystest.com"
 	name     = "Workshop User 56"
 	password = var.password
 	state    = "active"
@@ -559,7 +559,7 @@ resource "genesyscloud_user" "Workshop_user56" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user57" {
-	email    = "workshopuser57@genesystest.com"
+	email    = "workshop57@genesystest.com"
 	name     = "Workshop User 57"
 	password = var.password
 	state    = "active"
@@ -569,7 +569,7 @@ resource "genesyscloud_user" "Workshop_user57" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user58" {
-	email    = "workshopuser58@genesystest.com"
+	email    = "workshop58@genesystest.com"
 	name     = "Workshop User 58"
 	password = var.password
 	state    = "active"
@@ -579,7 +579,7 @@ resource "genesyscloud_user" "Workshop_user58" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user59" {
-	email    = "workshopuser59@genesystest.com"
+	email    = "workshop59@genesystest.com"
 	name     = "Workshop User 59"
 	password = var.password
 	state    = "active"
@@ -589,7 +589,7 @@ resource "genesyscloud_user" "Workshop_user59" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user60" {
-	email    = "workshopuser60@genesystest.com"
+	email    = "workshop60@genesystest.com"
 	name     = "Workshop User 60"
 	password = var.password
 	state    = "active"
@@ -599,7 +599,7 @@ resource "genesyscloud_user" "Workshop_user60" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user61" {
-	email    = "workshopuser61@genesystest.com"
+	email    = "workshop61@genesystest.com"
 	name     = "Workshop User 61"
 	password = var.password
 	state    = "active"
@@ -609,7 +609,7 @@ resource "genesyscloud_user" "Workshop_user61" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user62" {
-	email    = "workshopuser62@genesystest.com"
+	email    = "workshop62@genesystest.com"
 	name     = "Workshop User 62"
 	password = var.password
 	state    = "active"
@@ -619,7 +619,7 @@ resource "genesyscloud_user" "Workshop_user62" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user63" {
-	email    = "workshopuser63@genesystest.com"
+	email    = "workshop63@genesystest.com"
 	name     = "Workshop User 63"
 	password = var.password
 	state    = "active"
@@ -629,7 +629,7 @@ resource "genesyscloud_user" "Workshop_user63" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user64" {
-	email    = "workshopuser64@genesystest.com"
+	email    = "workshop64@genesystest.com"
 	name     = "Workshop User 64"
 	password = var.password
 	state    = "active"
@@ -639,7 +639,7 @@ resource "genesyscloud_user" "Workshop_user64" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user65" {
-	email    = "workshopuser65@genesystest.com"
+	email    = "workshop65@genesystest.com"
 	name     = "Workshop User 65"
 	password = var.password
 	state    = "active"
@@ -649,7 +649,7 @@ resource "genesyscloud_user" "Workshop_user65" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user66" {
-	email    = "workshopuser66@genesystest.com"
+	email    = "workshop66@genesystest.com"
 	name     = "Workshop User 66"
 	password = var.password
 	state    = "active"
@@ -659,7 +659,7 @@ resource "genesyscloud_user" "Workshop_user66" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user67" {
-	email    = "workshopuser67@genesystest.com"
+	email    = "workshop67@genesystest.com"
 	name     = "Workshop User 67"
 	password = var.password
 	state    = "active"
@@ -669,7 +669,7 @@ resource "genesyscloud_user" "Workshop_user67" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user68" {
-	email    = "workshopuser68@genesystest.com"
+	email    = "workshop68@genesystest.com"
 	name     = "Workshop User 68"
 	password = var.password
 	state    = "active"
@@ -679,7 +679,7 @@ resource "genesyscloud_user" "Workshop_user68" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user69" {
-	email    = "workshopuser69@genesystest.com"
+	email    = "workshop69@genesystest.com"
 	name     = "Workshop User 69"
 	password = var.password
 	state    = "active"
@@ -689,7 +689,7 @@ resource "genesyscloud_user" "Workshop_user69" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user70" {
-	email    = "workshopuser70@genesystest.com"
+	email    = "workshop70@genesystest.com"
 	name     = "Workshop User 70"
 	password = var.password
 	state    = "active"
@@ -699,7 +699,7 @@ resource "genesyscloud_user" "Workshop_user70" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user71" {
-	email    = "workshopuser71@genesystest.com"
+	email    = "workshop71@genesystest.com"
 	name     = "Workshop User 71"
 	password = var.password
 	state    = "active"
@@ -709,7 +709,7 @@ resource "genesyscloud_user" "Workshop_user71" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user72" {
-	email    = "workshopuser72@genesystest.com"
+	email    = "workshop72@genesystest.com"
 	name     = "Workshop User 72"
 	password = var.password
 	state    = "active"
@@ -719,7 +719,7 @@ resource "genesyscloud_user" "Workshop_user72" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user73" {
-	email    = "workshopuser73@genesystest.com"
+	email    = "workshop73@genesystest.com"
 	name     = "Workshop User 73"
 	password = var.password
 	state    = "active"
@@ -729,7 +729,7 @@ resource "genesyscloud_user" "Workshop_user73" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user74" {
-	email    = "workshopuser74@genesystest.com"
+	email    = "workshop74@genesystest.com"
 	name     = "Workshop User 74"
 	password = var.password
 	state    = "active"
@@ -739,7 +739,7 @@ resource "genesyscloud_user" "Workshop_user74" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user75" {
-	email    = "workshopuser75@genesystest.com"
+	email    = "workshop75@genesystest.com"
 	name     = "Workshop User 75"
 	password = var.password
 	state    = "active"
@@ -749,7 +749,7 @@ resource "genesyscloud_user" "Workshop_user75" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user76" {
-	email    = "workshopuser76@genesystest.com"
+	email    = "workshop76@genesystest.com"
 	name     = "Workshop User 76"
 	password = var.password
 	state    = "active"
@@ -759,7 +759,7 @@ resource "genesyscloud_user" "Workshop_user76" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user77" {
-	email    = "workshopuser77@genesystest.com"
+	email    = "workshop77@genesystest.com"
 	name     = "Workshop User 77"
 	password = var.password
 	state    = "active"
@@ -769,7 +769,7 @@ resource "genesyscloud_user" "Workshop_user77" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user78" {
-	email    = "workshopuser78@genesystest.com"
+	email    = "workshop78@genesystest.com"
 	name     = "Workshop User 78"
 	password = var.password
 	state    = "active"
@@ -779,7 +779,7 @@ resource "genesyscloud_user" "Workshop_user78" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user79" {
-	email    = "workshopuser79@genesystest.com"
+	email    = "workshop79@genesystest.com"
 	name     = "Workshop User 79"
 	password = var.password
 	state    = "active"
@@ -789,7 +789,7 @@ resource "genesyscloud_user" "Workshop_user79" {
 	}
 	}
 resource "genesyscloud_user" "Workshop_user80" {
-	email    = "workshopuser80@genesystest.com"
+	email    = "workshop80@genesystest.com"
 	name     = "Workshop User 80"
 	password = var.password
 	state    = "active"
