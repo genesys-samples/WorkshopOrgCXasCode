@@ -3,20 +3,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user1" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user2" {
@@ -24,20 +34,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user2" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user3" {
@@ -45,20 +65,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user3" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user4" {
@@ -66,20 +96,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user4" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user5" {
@@ -87,20 +127,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user5" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user6" {
@@ -108,20 +158,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user6" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user7" {
@@ -129,20 +189,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user7" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user8" {
@@ -150,20 +220,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user8" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user9" {
@@ -171,20 +251,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user9" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user10" {
@@ -192,20 +282,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user10" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user11" {
@@ -213,20 +313,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user11" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user12" {
@@ -234,20 +344,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user12" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user13" {
@@ -255,20 +375,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user13" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user14" {
@@ -276,20 +406,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user14" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user15" {
@@ -297,20 +437,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user15" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user16" {
@@ -318,20 +468,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user16" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user17" {
@@ -339,20 +499,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user17" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user18" {
@@ -360,20 +530,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user18" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user19" {
@@ -381,20 +561,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user19" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user20" {
@@ -402,20 +592,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user20" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user21" {
@@ -423,20 +623,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user21" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user22" {
@@ -444,20 +654,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user22" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user23" {
@@ -465,20 +685,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user23" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user24" {
@@ -486,20 +716,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user24" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user25" {
@@ -507,20 +747,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user25" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user26" {
@@ -528,20 +778,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user26" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user27" {
@@ -549,20 +809,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user27" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user28" {
@@ -570,20 +840,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user28" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user29" {
@@ -591,20 +871,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user29" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user30" {
@@ -612,20 +902,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user30" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user31" {
@@ -633,20 +933,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user31" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user32" {
@@ -654,20 +964,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user32" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user33" {
@@ -675,20 +995,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user33" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user34" {
@@ -696,20 +1026,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user34" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user35" {
@@ -717,20 +1057,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user35" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user36" {
@@ -738,20 +1088,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user36" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user37" {
@@ -759,20 +1119,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user37" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user38" {
@@ -780,20 +1150,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user38" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user39" {
@@ -801,20 +1181,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user39" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user40" {
@@ -822,20 +1212,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user40" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user41" {
@@ -843,20 +1243,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user41" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user42" {
@@ -864,20 +1274,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user42" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user43" {
@@ -885,20 +1305,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user43" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user44" {
@@ -906,20 +1336,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user44" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user45" {
@@ -927,20 +1367,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user45" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user46" {
@@ -948,20 +1398,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user46" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user47" {
@@ -969,20 +1429,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user47" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user48" {
@@ -990,20 +1460,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user48" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user49" {
@@ -1011,20 +1491,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user49" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user50" {
@@ -1032,20 +1522,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user50" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user51" {
@@ -1053,20 +1553,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user51" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user52" {
@@ -1074,20 +1584,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user52" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user53" {
@@ -1095,20 +1615,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user53" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user54" {
@@ -1116,20 +1646,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user54" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user55" {
@@ -1137,20 +1677,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user55" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user56" {
@@ -1158,20 +1708,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user56" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user57" {
@@ -1179,20 +1739,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user57" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user58" {
@@ -1200,20 +1770,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user58" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user59" {
@@ -1221,20 +1801,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user59" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user60" {
@@ -1242,20 +1832,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user60" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user61" {
@@ -1263,20 +1863,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user61" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user62" {
@@ -1284,20 +1894,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user62" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user63" {
@@ -1305,20 +1925,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user63" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user64" {
@@ -1326,20 +1956,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user64" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user65" {
@@ -1347,20 +1987,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user65" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user66" {
@@ -1368,20 +2018,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user66" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user67" {
@@ -1389,20 +2049,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user67" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user68" {
@@ -1410,20 +2080,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user68" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user69" {
@@ -1431,20 +2111,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user69" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user70" {
@@ -1452,20 +2142,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user70" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user71" {
@@ -1473,20 +2173,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user71" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user72" {
@@ -1494,20 +2204,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user72" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user73" {
@@ -1515,20 +2235,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user73" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user74" {
@@ -1536,20 +2266,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user74" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user75" {
@@ -1557,20 +2297,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user75" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user76" {
@@ -1578,20 +2328,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user76" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user77" {
@@ -1599,20 +2359,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user77" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user78" {
@@ -1620,20 +2390,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user78" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user79" {
@@ -1641,20 +2421,30 @@ resource "genesyscloud_user_roles" "Workshoproles_user79" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}
 resource "genesyscloud_user_roles" "Workshoproles_user80" {
@@ -1662,19 +2452,29 @@ resource "genesyscloud_user_roles" "Workshoproles_user80" {
 	roles {
 	role_id     = data.genesyscloud_auth_role.employee.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Developer.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.GenesysCloudVoiceAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.MasterAdmin.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.Terraform_user.id
 	}
+	
 	roles {
 	role_id     = data.genesyscloud_auth_role.AgentAssist.id
+	}
+	
+	
+	roles {
+	role_id     = data.genesyscloud_auth_role.admin.id
 	}
 	}

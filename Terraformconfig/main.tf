@@ -37,4 +37,7 @@ data "genesyscloud_auth_role" "Terraform_user" {
 data "genesyscloud_auth_role" "AgentAssist" {
   name = "Agent Assist"
 }
+data "genesyscloud_auth_role" "admin" {
+  name = "admin"
+}
 
